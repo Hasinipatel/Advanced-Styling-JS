@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .carousel img {
+        width: 100px;
+    }
+}
